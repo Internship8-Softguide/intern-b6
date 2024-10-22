@@ -31,3 +31,29 @@ $string = "this,is,string,a";
 // var_dump(explode(",", $string)) ;
 
 // echo strip_tags("<h1>Hello <b>world!</b></h1>");
+
+// echo pi();
+// echo min(0, 12, 3, 4);
+// echo max(0, 12, 3, 4);
+// echo sqrt(16);
+// echo abs(-9);
+// echo ceil(1.2);
+// echo floor(1.9);
+// echo round(1.4);
+// echo rand(1, 10);
+
+
+$arr = [1,2,4,5];
+$multiArr = [[11,2],[3,4]];
+
+$assocArr = ["name" => "Aung Aung","age" => 44];
+$assocArr["genter"] = "Male";
+// var_dump($assocArr);
+
+
+$name = 'John Wich';
+$lyric = "my name is $name and job is hit man";
+
+
+
+echo $lyric;
