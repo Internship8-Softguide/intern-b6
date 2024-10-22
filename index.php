@@ -43,7 +43,6 @@ $string = "this,is,string,a";
 // echo rand(1, 10);
 
 
-$arr = [1,2,4,5];
 $multiArr = [[11,2],[3,4]];
 
 $assocArr = ["name" => "Aung Aung","age" => 44];
@@ -56,4 +55,39 @@ $lyric = "my name is $name and job is hit man";
 
 
 
-echo $lyric;
+// echo $lyric;
+
+$arr = ["aung aung2",2,4,5,"lest element"];
+$numArr = range(4, 10);
+$assocArr = ["age" => 30,"name" => "aung aung",'gender' => "male"];
+
+// var_dump($numArr) ;
+// echo in_array("aung aung", $arr);
+
+// echo array_key_exists("name", $assocArr);
+
+
+// var_dump(array_keys($assocArr));
+// var_dump(array_values($assocArr));
+
+$lyricArr = explode(",", $string);
+
+// echo implode("-", $arr)."<br>";
+// echo join("-", $arr);
+
+// sort($arr);
+// rsort($arr);
+// var_dump($arr);
+
+// ksort($assocArr);
+// krsort($assocArr);
+
+// asort($assocArr);
+// arsort($assocArr);
+
+// array_push($arr, "new value");
+// array_pop($arr);
+// array_shift($arr);
+// array_unshift($arr, "the first value");
+
+var_dump($arr);
